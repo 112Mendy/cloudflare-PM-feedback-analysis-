@@ -1,0 +1,19 @@
+name = "feedback-analysis-api"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Cloudflare D1 Database
+[[d1_databases]]
+binding = "DB"
+database_name = "feedback-db"
+database_id = "ba6f9d2d-0f14-4cc7-8938-29363979f31b"  # Replace with your D1 database ID
+
+# Cloudflare KV Namespace for caching
+[[kv_namespaces]]
+binding = "CACHE"
+id = "beaaf6cf68a2440a94cdf222b1f9790b"  # Replace with your KV namespace ID
+preview_id = "473f8e7615af40b48a18aa90e39bdd5c"  # Replace with your KV preview ID
+
+# Environment variables (optional)
+[vars]
+ENVIRONMENT = "production"

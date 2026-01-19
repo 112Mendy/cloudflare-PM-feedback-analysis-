@@ -1,0 +1,3 @@
+# Cloudflare Pages redirects
+# Proxy API requests to Workers
+/api/*  https://feedback-analysis-api.feedback-analysis-api.workers.dev/api/:splat  200
