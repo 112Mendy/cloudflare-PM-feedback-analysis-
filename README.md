@@ -234,6 +234,14 @@ See `http://localhost:8000/docs` for interactive API documentation.
 - Email notifications
 - Custom categorization rules
 
+## FeedCus.ai — Product Demonstration
+
+FeedCus.ai is an AI-powered product feedback intelligence platform designed to help product teams aggregate fragmented customer feedback, identify product gaps, analyse customer sentiment, prioritise improvements and make better product decisions.
+
+▶️ **[Watch the FeedCus.ai product demonstration (3 min 20 s)](./assets/feedcus-demo.mp4)**
+
+<video src="./assets/feedcus-demo.mp4" controls width="100%"></video>
+
 ## License
 
 MIT
